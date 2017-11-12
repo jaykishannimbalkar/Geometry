@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Geometry</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="rectangle">A rectangle is a four-sided flat shape where every angle is a right angle (90°).</string>
+    <string name="square">A Square is a flat shape with 4 equal sides and every angle is a right angle (90°)</string>
+    <string name="triangle">A triangle is a polygon with three edges and three vertices. It is one of the basic shapes in geometry.</string>
+
+</resources>

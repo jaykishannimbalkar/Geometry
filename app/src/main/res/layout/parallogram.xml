@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/white">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="* Parallelogram *"
+            android:textColor="@color/colorAccent"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/txt"
+            android:layout_margin="5dp"
+            android:id="@+id/img1"
+            android:src="@drawable/parallograminfo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img1"
+            android:text="Area of Parallelogram:-"
+            android:textSize="30dp"
+            android:id="@+id/txt1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_below="@id/txt1">
+
+            <EditText
+                android:id="@+id/num1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Height"
+                android:inputType="numberDecimal"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/multiplication" />
+
+            <EditText
+                android:id="@+id/num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Base"
+                android:inputType="numberDecimal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="="
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Result"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
