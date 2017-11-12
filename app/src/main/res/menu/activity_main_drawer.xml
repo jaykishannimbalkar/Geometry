@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/rectangle"
+            android:icon="@drawable/rectangle"
+            android:title="Rectangle" />
+        <item
+            android:id="@+id/triangle"
+            android:icon="@drawable/triangle"
+            android:title="Triangle" />
+        <item
+            android:id="@+id/square"
+            android:icon="@drawable/square"
+            android:title="Square" />
+        <item
+            android:id="@+id/parallogram"
+            android:icon="@drawable/parallogram"
+            android:title="Parallelogram" />
+        <item
+            android:id="@+id/trapezoid"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Trapezoid"
+            ></item>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
